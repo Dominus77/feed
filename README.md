@@ -1,4 +1,4 @@
-Виджет ContactForm
+Yii2 Виджет ContactForm
 =======
 
 Поместить виджет в папку app\widgets\feed
@@ -15,10 +15,9 @@ $config = [
     'components' => [
         //...
         'urlManager' => [
-            'enablePrettyUrl' => true,
-            'showScriptName' => false,
-            'enableStrictParsing' => true,
+            //...
             'rules' => [
+                //...
                 'feed/contact' => 'feed/contact',
                 'feed/captcha' => 'feed/captcha',
             ],
