@@ -16,10 +16,9 @@ class FeedWidget extends Widget
 {
     public $id;
     public $url;
-    public $clientOptions = [];
-    public $pjaxOptions = [];
     public $message = '';
-    public $messageContainer;
+    public $clientOptions = [];
+    public $pjaxOptions = [];    
 
     public function init()
     {
